@@ -38,7 +38,7 @@ body{
 .projects{
     display:grid;
     grid-template-columns:repeat(4,1fr);
-    gap:25px;
+    gap:20px;
 }
 
 /*==========================
@@ -52,7 +52,7 @@ body{
     font-size:var(--sp);
     font-weight:var(--wp);
     padding:45px 20px;
-    border-radius:16px;
+    border-radius:10px;
     display:flex;
     justify-content:center;
     align-items:center;
@@ -63,7 +63,7 @@ body{
 }
 
 .project:hover{
-    transform:translateY(-8px);
+    transform:translateY(-4px);
     box-shadow:0 18px 40px rgba(0,0,0,.35);
 
 }
