@@ -1,0 +1,138 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+:root{
+    --font-name: "Bricolage Grotesque", sans-serif;
+    --wtitle: 800;
+    --wp: 400;
+    --stitle: 40px;
+    --sp: 20px; 
+}
+
+body{
+    font-family: var(--font-name);
+    background-color: rgb(36, 26, 0);
+    color: white;
+}
+
+.back{
+    margin: 20px auto;
+    text-decoration: none;
+}
+
+.card{
+    margin: 15px auto;
+    padding: 10px;
+    width: 400px;
+    height: 200px;
+    border-radius: 10px;
+    background-color: rgba(255, 255, 255, 0.238);
+}
+
+.title{
+    margin-top: 20px;
+    font-size: var(--stitle);
+    text-align: center;
+}
+
+#minus, #plus, #reset{
+    padding: 5px 20px;
+    font-size: 18px;
+    border-radius: 10px;
+    color: black;
+    background-color: rgba(255, 255, 255, 0.462);
+}
+
+.mainApp{
+    text-align: center;
+    margin-top: 30px !important;
+}
+
+#countNumber{
+    padding: 5px 20px;
+    border-radius: 10px;
+    font-size: 25px;
+    width: 250px;
+    height: 250px;
+    color: white;
+}
+
+
+/* ===========================
+   Mobile Responsive
+=========================== */
+
+@media screen and (max-width: 768px) {
+
+    .back{
+        width: 90%;
+        margin: 15px auto;
+    }
+
+    .card{
+        width: 90%;
+        max-width: 400px;
+        height: auto;
+        padding: 20px 15px;
+    }
+
+    .title{
+        font-size: 28px;
+        margin-top: 10px;
+    }
+
+    .mainApp{
+        margin-top: 25px !important;
+
+        display: flex;
+        flex-wrap: wrap;
+        justify-content: center;
+        gap: 12px;
+    }
+
+    #countNumber{
+        width: auto;
+        height: auto;
+        padding: 8px 18px;
+        font-size: 24px;
+        display: inline-block;
+    }
+
+    #minus,
+    #plus,
+    #reset{
+        padding: 10px 18px;
+        font-size: 16px;
+    }
+
+}
+
+@media screen and (max-width: 480px){
+
+    .card{
+        width: 95%;
+        padding: 18px 12px;
+    }
+
+    .title{
+        font-size: 24px;
+    }
+
+    #minus,
+    #plus{
+        width: 31%;
+        font-size: 18px;
+    }
+    #reset{
+        width: 100%;
+    }
+    #countNumber{
+        width: 31%;
+        text-align: center;
+        font-size: 22px;
+    }
+
+}
