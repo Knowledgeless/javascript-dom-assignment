@@ -3,7 +3,7 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Background Color Changer</title>
+    <title>Counter App</title>
 
 
     <link rel="stylesheet" href="./src/output.css">
@@ -27,17 +27,20 @@
     </div>
     <div class="card bg-white-200 container mx-auto">
         <div class="title">
-            Background Color Changer
+            Password Generator
         </div>
-        <p class="stitle">Choose your background color</p>
-        <div class="colors">
-            
-            <input type="color" id="colorPicker" value="#000a52"> <button id="doneButton">Done</button>
+        <div class="project">
+            <input type="number" id="inputNumber" placeholder="8" min="8" max="30">
+            <button id="inputButton">Generate</button>
+        </div>
+        <div class="project" id="password">
+            Generate Your Password
         </div>
 
-        <p>Your Color Code: <span id="colorCode">#000a52</span></p>
     </div>
 
+
+    
     <script src="index.js"></script>
     
 </body>
