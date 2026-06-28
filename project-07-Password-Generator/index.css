@@ -58,7 +58,7 @@ input:focus-visible{
 }
 
 #inputButton{
-    padding: 5px 15px;
+    padding: 4px 15px;
     border-radius: 10px;
     color: black;
     background-color: aqua;

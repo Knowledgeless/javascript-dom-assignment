@@ -1,0 +1,48 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Gradient Background Generator</title>
+
+
+    <link rel="stylesheet" href="./src/output.css">
+
+    <!-- font awesome  -->
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/7.0.1/css/all.min.css" integrity="sha512-2SwdPD6INVrV/lHTZbO2nodKhrnDdJK9/kg2XD1r9uGqPo1cUbujc+IYdlYdEErWNu69gVcYgdxlmVmzTWnetw==" crossorigin="anonymous" referrerpolicy="no-referrer" />
+
+    <!-- fonts -->
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Bricolage+Grotesque:opsz,wght@12..96,200..800&display=swap" rel="stylesheet">
+
+    <!-- custom css -->
+    <link rel="stylesheet" href="index.css">
+
+</head>
+<body>
+
+    <div class="back container mx-auto">
+        <a href="../index.html" class="back"><i class="fa-solid fa-arrow-left-long"></i> Go Back</a>
+    </div>
+    <div class="card bg-white-200 container mx-auto">
+        <div class="title">
+            Gradient Background Generator
+        </div>
+        <p class="stitle">Choose your colors</p>
+        <div class="colors">
+            
+            <input type="color" id="colorPicker1" value="#001eff"> 
+            <input type="color" id="colorPicker2" value="#000a52"> <button id="doneButton">Done</button>
+        </div>
+
+        <p class="colorCode">Color Code-1: <span id="colorCode1">#001eff</span></p>
+        <p class="colorCode">Color Code-2: <span id="colorCode2">#000a52</span></p>
+    </div>
+
+    <script src="index.js"></script>
+    
+</body>
+</html>
+
+
