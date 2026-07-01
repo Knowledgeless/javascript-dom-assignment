@@ -180,9 +180,6 @@
   }
 }
 @layer utilities {
-  .fixed {
-    position: fixed;
-  }
   .container {
     width: 100%;
     @media (width >= 40rem) {
@@ -216,6 +213,9 @@
   .border {
     border-style: var(--tw-border-style);
     border-width: 1px;
+  }
+  .bg-\[\#372E2D\] {
+    background-color: #372E2D;
   }
   .bg-\[\#011142\] {
     background-color: #011142;

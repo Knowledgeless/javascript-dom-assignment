@@ -1,8 +1,6 @@
 let colorPicker1 = document.querySelector("#colorPicker1");
 let colorPicker2 = document.querySelector("#colorPicker2");
 let doneButton = document.querySelector("#doneButton");
-let colorCode1 = document.querySelector("#colorCode1");
-let colorCode2 = document.querySelector("#colorCode2");
 
 const directions = [
     "to right",
@@ -31,7 +29,6 @@ doneButton.addEventListener("click", ()=>{
 
     document.body.style.backgroundSize = "cover";
 
-    colorCode1.textContent = color1;
-    colorCode2.textContent = color2;
-    console.log(color1, color2);
+    colorCodeContainer.textContent = `Background: linear-gradient(${dir}, ${color1}, ${color2})`;
+
 });

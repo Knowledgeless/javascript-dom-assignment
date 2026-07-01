@@ -3,7 +3,7 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Gradient Background Generator</title>
+    <title>Stop Watch</title>
 
 
     <link rel="stylesheet" href="./src/output.css">
@@ -27,23 +27,18 @@
     </div>
     <div class="card bg-white-200 container mx-auto">
         <div class="title">
-            Gradient Background Generator
+            Stopwatch
         </div>
-        <p class="stitle">Choose your colors</p>
-        <div class="colors">
-            
-            <input type="color" id="colorPicker1" value="#001eff"> 
-            <input type="color" id="colorPicker2" value="#000a52"> <button id="doneButton">Done</button>
-        </div>
+        <span id="startButton">Start</span>
+        <span id="stopButton">Stop</span>
+        <span id="resetButton">Reset</span>
+        <div id="stopwatch">00:00:00:00</div>
 
-        <div class="colorCode" id="colorCodeContainer">
-            
-        </div>
     </div>
 
+
+    
     <script src="index.js"></script>
     
 </body>
 </html>
-
-
